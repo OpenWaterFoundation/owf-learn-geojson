@@ -1,4 +1,4 @@
-# Using GeoJSON with Software / GeoTools
+# Using GeoJSON with Software / GeoTools #
 
 The [GeoTools Open Source Java Toolkit](http://www.geotools.org/) can be used to develop geospatial tools with Java.
 

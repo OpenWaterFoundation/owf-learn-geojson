@@ -1,10 +1,11 @@
-# GeoJSON Specification / Overview
+# GeoJSON Specification / Overview #
 
 The GeoJSON file format is a specific JSON schema and includes geometry and properties for spatial data features.
 Benefits of GeoJSON include:
 
 * Single file, conducive to use with web services, static websites, and distributing datasets for visualization.
 * Text file, so easy to view, create, and parse.
+* No limits on feature attribute names (unlike Esri shapefiles)
 
 Limitations of GeoJSON include:
 
@@ -13,6 +14,9 @@ Limitations of GeoJSON include:
 concepts such as symbolization.
 * Because the file format is free-format text, it is more difficult for software to access in asynchronous fashion by
 jumping around the file.
+* Because the file is JSON, comments are not allowed, unless included as data.
+* Support for special values such as `null`, `NaN`, and date/times vary.
+* Format specification for metadata is lacking.
 
 See the following resources:
 
@@ -23,9 +27,8 @@ See the following resources:
 
 The following topics are covered in separate pages:
 
-* [Comments](comments) - they are not directly supported by JSON, so how do implement?
-* [Version](version) - suggestion for foreign properties for version
-* [Metadata](metadata) - suggestion for foreign properties for metadata
+* [Comments](comments) - they are not directly supported by JSON, so how to implement?
+* [Version](version) - options for indicating version
+* [Metadata](metadata) - options for metadata
 * [File Size](file-size) - tips for reducing file size
 * [Alternatives](alternatives) - alternatives to GeoJSON
-

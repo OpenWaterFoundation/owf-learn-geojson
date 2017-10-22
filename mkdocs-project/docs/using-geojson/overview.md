@@ -1,4 +1,4 @@
-# Using GeoJSON with Software / Overview
+# Using GeoJSON with Software / Overview #
 
 GeoJSON files can be used with various software tools to facilitate viewing and interacting with spatial data.
 Each software tool provides features and has limitations.
