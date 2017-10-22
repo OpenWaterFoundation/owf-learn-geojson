@@ -1,7 +1,7 @@
 # owf-learn-geojson #
 
 This repository contains the [Open Water Foundation (OWF)](http://openwaterfoundation.org/) GeoJSON training materials,
-which provides guidance for using GeoJSON open spatial data format.
+which provides guidance for using the GeoJSON open spatial data format.
 The documentation is written for the layperson in order to encourage use of GeoJSON.
 
 See the deployed [OWF / Learn GeoJSON](http://learn.openwaterfoundation.org/owf-learn-geojson/) documentation.
@@ -12,8 +12,8 @@ The repository contains the following:
 
 ```text
 .github/              (Files specific to GitHub such as issue template)
-.gitattributes        (Typicaly Git configuration file)
-.gitignore            (Typicaly Git configuration file)
+.gitattributes        (Typical Git configuration file)
+.gitignore            (Typical Git configuration file)
 README.md             (This file)
 build-util/           (Useful scripts to view, build, and deploy documentation)
 mkdocs-project/       (Typical MkDocs project for this documentation)
@@ -43,7 +43,7 @@ Contribute to the documentation as follows:
 
 ## Maintainers ##
 
-This repository is maintained by the [Open Water Foundation]((http://openwaterfoundation.org/).
+This repository is maintained by the [Open Water Foundation](http://openwaterfoundation.org/).
 
 ## Contributors ##
 
