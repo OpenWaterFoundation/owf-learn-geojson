@@ -11,7 +11,7 @@ pages:
   - 'Version': 'specification/version.md'
   - 'Metadata': 'specification/metadata.md'
   - 'File Size': 'specification/file-size.md'
-  - 'Alternatives': 'specification/alternatives.md'
+  - 'Alternatives to GeoJSON': 'specification/alternatives.md'
 - 'GeoJSON Examples':
   - 'Overview': 'examples/overview.md'
   - 'Time Series': 'examples/time-series.md'
@@ -22,13 +22,18 @@ pages:
   - 'GeoTools': 'using-geojson/geotools.md'
   - 'QGIS': 'using-geojson/qgis.md'
   - 'Leaflet': 'using-geojson/leaflet.md'
-theme: readthedocs
-repo_url:  https://github.com/OpenWaterFoundation/owf-learn-geojson
-site_description:  Open Water Foundation Learn GeoJSON
-site_author:  Open Water Foundation
-site_favicon:  OWF-Logo-Favicon-32x32.png
-copyright:  Copyright Open Water Foundation
-#extra_css:
-#- css/extra.css
-# Defaults to all JavaScript in the docs folder
-# extra_javascript:
+- 'Resources': resources.md
+# ------- configuration properties ---------------
+# Use Material theme
+# - installation notes:  https://github.com/squidfunk/mkdocs-material
+theme: material
+#theme: readthedocs
+# Don't indicate the repo because Edit will be shown on every page (don't want that in deployed mode)
+# - Also see edit_uri if repo_url is specified
+#repo_url:  https://github.com/OpenWaterFoundation/owf-learn-geojson
+site_description:  'Open Water Foundation Learn GeoJSON'
+site_author:  'Open Water Foundation'
+site_favicon:  'images/OWF-Logo-Favicon-32x32.png'
+copyright:  'Copyright Open Water Foundation'
+extra:
+        extra_css: 'css/extra-material-theme.css'
