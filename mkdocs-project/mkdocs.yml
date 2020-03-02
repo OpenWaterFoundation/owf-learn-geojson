@@ -2,8 +2,8 @@
 # Use hash-comments to comment out pages have not been written
 # Reference: http://www.mkdocs.org/user-guide/configuration/
 #
-site_name: OWF Learn / GeoJSON
-pages:
+site_name: 'OWF Learn / GeoJSON'
+nav:
 - Home: index.md
 - 'GeoJSON Specification':
   - 'Overview': 'specification/overview.md'
@@ -24,16 +24,27 @@ pages:
   - 'Leaflet': 'using-geojson/leaflet.md'
 - 'Resources': resources.md
 # ------- configuration properties ---------------
+# Alphabetize
+# ------------------------------------------------
+copyright:  'Copyright 2016-2020, Open Water Foundation'
+# Use extra CSS to customize styles, based on material theme
+extra_css:
+  - 'css/extra-material-theme.css'
+# ------------------------------------------------
+# Google Analytics
+# - see:  https://squidfunk.github.io/mkdocs-material/getting-started/#google-analytics
+google_analytics:
+ - 'UA-135465513-1'
+ - auto
+# ------------------------------------------------
+site_author:  'Open Water Foundation'
+site_description:  'Open Water Foundation Learn GeoJSON'
+# ------------------------------------------------
 # Use Material theme
 # - installation notes:  https://github.com/squidfunk/mkdocs-material
-theme: material
-#theme: readthedocs
+theme:
+  name: material
+  favicon: 'images/OWF-Logo-Favicon-32x32.png'
 # Don't indicate the repo because Edit will be shown on every page (don't want that in deployed mode)
 # - Also see edit_uri if repo_url is specified
 #repo_url:  https://github.com/OpenWaterFoundation/owf-learn-geojson
-site_description:  'Open Water Foundation Learn GeoJSON'
-site_author:  'Open Water Foundation'
-site_favicon:  'images/OWF-Logo-Favicon-32x32.png'
-copyright:  'Copyright Open Water Foundation'
-extra:
-        extra_css: 'css/extra-material-theme.css'
