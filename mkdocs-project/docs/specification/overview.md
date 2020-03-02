@@ -4,7 +4,7 @@ The GeoJSON file format is a specific JSON schema and includes geometry and prop
 Benefits of GeoJSON include:
 
 * Single file, conducive to use with web services, static websites, and distributing datasets for visualization.
-* Text file, so easy to view, create, and parse.
+* Text file, so easy to view, create, parse, and manage in a version control system.
 * No limits on feature attribute names (unlike Esri shapefiles)
 
 Limitations of GeoJSON include:
@@ -22,13 +22,13 @@ See the following resources:
 
 * [JSON specification](http://www.json.org)
 * [GeoJSON.org](http://geojson.org/)
-* [GeoJSON 2008 specification](http://geojson.org/geojson-spec.html) - current version
-* [GeoJSON 2016 RFC 7964 specification](https://tools.ietf.org/html/rfc7946) - new recommendation
+* [GeoJSON 2016 RFC 7964 specification](https://tools.ietf.org/html/rfc7946) - latest specification = **use this**
+* [GeoJSON 2008 specification](http://geojson.org/geojson-spec.html) - original specification - **avoid if possible**
 
 The following topics are covered in separate pages:
 
-* [Comments](comments) - they are not directly supported by JSON, so how to implement?
-* [Version](version) - options for indicating version
-* [Metadata](metadata) - options for metadata
-* [File Size](file-size) - tips for reducing file size
-* [Alternatives](alternatives) - alternatives to GeoJSON
+* [Comments](comments.md) - they are not directly supported by JSON, so how to implement?
+* [Version](version.md) - options for indicating version
+* [Metadata](metadata.md) - options for metadata
+* [File Size](file-size.md) - tips for reducing file size
+* [Alternatives](alternatives.md) - alternatives to GeoJSON

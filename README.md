@@ -11,15 +11,16 @@ See the deployed [OWF / Learn GeoJSON](http://learn.openwaterfoundation.org/owf-
 The repository contains the following:
 
 ```text
-.github/              (Files specific to GitHub such as issue template)
-.gitattributes        (Typical Git configuration file)
-.gitignore            (Typical Git configuration file)
-README.md             (This file)
-build-util/           (Useful scripts to view, build, and deploy documentation)
-mkdocs-project/       (Typical MkDocs project for this documentation)
-  mkdocs.yml          (MkDocs configuration file for website)
-  docs/               (Folder containing source Markdown and other files for website)
-  site/               (Folder created by MkDocs containing the static website - ignored using .gitignore)
+.github/              Files specific to GitHub such as issue template.
+.gitattributes        Typical Git configuration file.
+.gitignore            Typical Git configuration file.
+README.md             This file.
+build-util/           Useful scripts to view, build, and deploy documentation.
+mkdocs-project/       Typical MkDocs project for this documentation.
+  mkdocs.yml          MkDocs configuration file for website.
+  docs/               Folder containing source Markdown and other files for website.
+  site/               Folder created by MkDocs containing the static website - ignored using .gitignore.
+z-local-notes/        Local notes not committed to repository, such as what environment (cygwin, Git Bash is used for Git).
 
 ```
 
@@ -53,13 +54,9 @@ Contribute to the documentation as follows:
 
 This repository is maintained by the [Open Water Foundation](http://openwaterfoundation.org/).
 
-## Contributors ##
-
-Steve Malers, Open Water Foundation (@smalers)
-
 ## Release Notes ##
 
-The following release notes indicate the update history for documentation, with GitHub repository issue indicated,
+The following release notes indicate the major update history for documentation, with GitHub repository issue indicated,
 if applicable (links to issues via README.md are not cleanly supported by GitHub so use the repository issues page to find).
 
 * 2017-10-21 [1] - switch to Material theme, update documentation based on experience.
