@@ -1,10 +1,10 @@
 # owf-learn-geojson #
 
-This repository contains the [Open Water Foundation (OWF)](http://openwaterfoundation.org/) GeoJSON training materials,
+This repository contains the [Open Water Foundation (OWF)](https://openwaterfoundation.org/) GeoJSON training materials,
 which provides guidance for using the GeoJSON open spatial data format.
 The documentation is written for the layperson in order to encourage use of GeoJSON.
 
-See the deployed [OWF / Learn GeoJSON](http://learn.openwaterfoundation.org/owf-learn-geojson/) documentation.
+See the deployed [OWF / Learn GeoJSON](https://learn.openwaterfoundation.org/owf-learn-geojson/) documentation.
 
 ## Repository Contents ##
 
@@ -27,7 +27,7 @@ z-local-notes/        Local notes not committed to repository, such as what envi
 ## Development Environment ##
 
 The development environment for contributing to this project requires installation of Python, MkDocs, and Material MkDocs theme.
-Python 2 has been used for development.  See the [OWF / Learn MkDocs](http://learn.openwaterfoundation.org/owf-learn-mkdocs/)
+Python 2 has been used for development.  See the [OWF / Learn MkDocs](https://learn.openwaterfoundation.org/owf-learn-mkdocs/)
 documentation for more information about MkDocs.
 
 ## Editing and Viewing Content ##
@@ -52,7 +52,7 @@ Contribute to the documentation as follows:
 
 ## Maintainers ##
 
-This repository is maintained by the [Open Water Foundation](http://openwaterfoundation.org/).
+This repository is maintained by the [Open Water Foundation](https://openwaterfoundation.org/).
 
 ## Release Notes ##
 

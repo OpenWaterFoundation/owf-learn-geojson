@@ -15,12 +15,12 @@ This documentation page includes the following sections:
 
 ## About the Open Water Foundation ##
 
-The [Open Water Foundation](http://openwaterfoundation.org) is a 501(c)3 nonprofit social enterprise that focuses
+The [Open Water Foundation](https://openwaterfoundation.org) is a 501(c)3 nonprofit social enterprise that focuses
 on developing and supporting open source software and open data solutions for water resources,
 so that organizations can make better decisions about water.
 OWF has created this documentation to educate its staff, our clients, and others that work with spatial data.
 
-See also other [OWF learning resources](http://learn.openwaterfoundation.org).
+See also other [OWF learning resources](https://learn.openwaterfoundation.org).
 
 ## How to Use this Documentation ##
 
